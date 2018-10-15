@@ -1,0 +1,4 @@
+<?php 
+// FUNCTIONS.PHP
+
+?>
