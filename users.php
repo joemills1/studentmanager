@@ -48,7 +48,7 @@ include('includes/header.php');
 
         <tr>
             <td colspan="7">
-                <div class="text-center"><a href="newuser.php" type="button" class="btn btn-sm btn-success"><span class="glyphicon glyphicon-plus">Add User</span></a></div>
+                <div class="text-center"><a href="newuser.php" type="button" class="btn btn-sm btn-success"><span class="glyphicon glyphicon-plus"></span> Add User</a></div>
             </td>
         </tr> 
     </table>

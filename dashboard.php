@@ -15,7 +15,7 @@ if( !isset($_SESSION['loggedInUser']) ){
 ?>
 
 <div class="container">
-    <h1>Dashboard</h1><hr>
+    <h1 style="color:blue;">Dashboard</h1><hr>
     <p class="lead">System overview</p>
     
     
@@ -23,7 +23,7 @@ if( !isset($_SESSION['loggedInUser']) ){
         <a class="card-link" href="students.php">
         <div class="col-sm-4">
             <div class="card">
-                <img src="img/signup3.png" alt="avatar" class="center-image">
+                <img src="img/student_1.png" alt="avatar" class="center-image">
                 <div class="mycontainer">
                     <h4><strong>Student Console</strong></h4>
                     <p>Manage student basic info</p>
@@ -32,7 +32,7 @@ if( !isset($_SESSION['loggedInUser']) ){
         </div></a>
         <a href="#" class="card-link"><div class="col-sm-4">
             <div class="card">
-                <img src="img/signup3.png" alt="avatar" class="center-image">
+                <img src="img/assessment_1.png" alt="avatar" class="center-image">
                 <div class="mycontainer">
                     <h4><strong>Assessment Console</strong></h4>
                     <p>Manage assessment info</p>
@@ -41,7 +41,7 @@ if( !isset($_SESSION['loggedInUser']) ){
         </div></a>
         <a href="users.php" class="card-link"><div class="col-sm-4">
             <div class="card">
-                <img src="img/signup3.png" alt="avatar" class="center-image">
+                <img src="img/user_mgt.png" alt="avatar" class="center-image">
                 <div class="mycontainer">
                     <h4><strong>User Console</strong></h4>
                     <p>Regulate system access</p>

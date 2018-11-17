@@ -96,7 +96,7 @@ if (isset( $_POST['updateStudent'] )){
 if( isset($_POST['deleteStudent']) ) {
     
     $alertMessage = "<div class='alert alert-danger'>
-    <p>Are you sure you want to delete this client? Operation cannot be undone!</p><br>
+    <p>Are you sure you want to delete this student? Operation cannot be undone!</p><br>
         <form action='".htmlspecialchars( $_SERVER["PHP_SELF"] )."?id=$studentId' method='post'>
             <input type='submit' class='btn btn-danger btn-sm' name='confirm-delete' value='Yes, delete!'>
             <a type='button' class='btn btn-default btn-sm' data-dismiss='alert'>Oops, no thanks!</a>

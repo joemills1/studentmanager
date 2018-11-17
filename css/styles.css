@@ -27,3 +27,10 @@ img{
 .card-link:visited{
     color: #000;
 }
+
+.center-div{
+    margin: auto; 
+    text-align: center; 
+    padding: 5px;
+}
+
